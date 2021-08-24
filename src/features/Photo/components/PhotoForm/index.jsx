@@ -47,14 +47,14 @@ function PhotoForm(props) {
               name="title"
               component={InputField}
               label="Title"
-              placeholder="Eg: Wow nature ..."
+              placeholder="Picture 1, Topic 1..."
             />
 
             <FastField
               name="categoryId"
               component={SelectField}
               label="Category"
-              placeholder="What's your photo category?"
+              placeholder="Select topic options"
               options={PHOTO_CATEGORY_OPTIONS}
             />
 
