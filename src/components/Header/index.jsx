@@ -17,7 +17,7 @@ function Header() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Van Le
+              Van Le - Redux Project Basic
             </a>
           </Col>
 

@@ -16,7 +16,15 @@ PhotoCard.defaultProps = {
 };
 
 function PhotoCard(props) {
-  const { photo } = props;
+  const { photo, onEditClick, onRemoveClick } = props;
+
+  const handleEditClick = () => {
+    if (onEditClick) onEditClick(photo);
+  };
+
+  const handleRemoveClick = () => {
+    if (onRemoveClick) onRemoveClick(photo);
+  };
 
   return (
     <div className="photo">
@@ -27,12 +35,18 @@ function PhotoCard(props) {
 
         <div className="photo__actions">
           <div>
-            <Button outline size="sm" color="light">
+            <Button outline size="sm" color="light" onClick={handleEditClick}>
               Edit
             </Button>
           </div>
+
           <div>
-            <Button outline size="sm" color="danger">
+            <Button
+              outline
+              size="sm"
+              color="danger"
+              onClick={handleRemoveClick}
+            >
               Remove
             </Button>
           </div>
