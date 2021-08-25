@@ -1,3 +1,4 @@
+import Footer from "components/Footer";
 import React, { Suspense } from "react";
 import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 import "./App.scss";
@@ -19,6 +20,7 @@ function App() {
             <Route path="/photos" component={Photo} />
             <Route component={NotFound} />
           </Switch>
+          <Footer />
         </BrowserRouter>
       </Suspense>
     </div>

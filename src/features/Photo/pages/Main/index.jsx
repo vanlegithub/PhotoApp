@@ -5,7 +5,7 @@ import { removePhoto } from "features/Photo/photoSlice";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useHistory } from "react-router-dom";
-import { Button, Container } from "reactstrap";
+import { Button, Col, Container, Row } from "reactstrap";
 import "./Main.scss";
 MainPage.propTypes = {};
 
@@ -30,13 +30,25 @@ function MainPage(props) {
   return (
     <div className="photo-main">
       <Banner title="Your awesome photos" backgroundUrl={Images.MAIN_BG} />
-
-      <Container className="text-center">
-        <div className="py-5">
-          <Link to="/photos/add">
-            <Button>Add new photo</Button>
-          </Link>
-        </div>
+      <Container>
+        <Row className="text-center">
+          <Col></Col>
+          <Col>
+            <a
+              href="https://github.com/vanlegithub/redux-photo-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="btn btn-dark">Github Project</Button>
+            </a>
+          </Col>
+          <Col>
+            <Link to="/photos/add">
+              <Button className="btn btn-secondary">Add new photo</Button>
+            </Link>
+          </Col>
+          <Col></Col>
+        </Row>
 
         <PhotoList
           photoList={photos}

@@ -17,7 +17,7 @@ function Header() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Van Le - Redux Project
+              Photo App
             </a>
           </Col>
 
@@ -28,7 +28,7 @@ function Header() {
               to="/photos"
               activeClassName="header__link--active"
             >
-              Photo App
+              Home
             </NavLink>
           </Col>
         </Row>
