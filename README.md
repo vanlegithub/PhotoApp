@@ -1,14 +1,12 @@
 # Personal project - PhotoApp
 
-## Link public https://photoapp-vanle.web.app/
-
-## Description
-
-- Photo manager app includes functions like: Add photos from picsum to gallery, delete photos and edit photo content
-
 ## Link public
 
 - https://photoapp-vanle.web.app/
+
+## Description
+
+- Photo manager app includes functions like: Add photos from picsum to gallery, delete photos & edit photo content
 
 ## Dependencies - Libraries
 
