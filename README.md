@@ -1,12 +1,12 @@
 # Personal project - PhotoApp
 
-## Link public
+## Link public - Hosting
 
 - https://photoapp-vanle.web.app/
 
-## Description
+## Description - Features
 
-- Photo manager app includes functions like: Add photos from picsum to gallery, delete photos & edit photo content
+- Photo manager app includes functions: Add photos from picsum to gallery, delete photos, edit photo content
 
 ## Dependencies - Libraries
 
@@ -14,11 +14,11 @@
 - react-redux@7.2.4, @reduxjs/toolkit@1.6.1
 - yup@0.29.0, node-sass@4.14.1, bootstrap@4.4.1, formik@2.1.4
 
-## Edit files
+## Edit - Add files
 
 - jsconfig.json, firebase.json
 
-## Refernces - Vendors
+## References - Libraries
 
 - https://reactjs.org/
 - https://reactstrap.github.io/
@@ -26,9 +26,11 @@
 - https://formik.org/docs/overview
 - https://github.com/jquense/yup
 - https://picsum.photos/
+- https://firebase.google.com/
 - https://code.visualstudio.com/docs/languages/jsconfig
+- https://css-tricks.com/snippets/html/glyphs/
 
-## More
+## More information
 
 - https://www.linkedin.com/in/vanleprofile/
 - Continue to update more for the project in future
