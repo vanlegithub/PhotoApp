@@ -1,6 +1,6 @@
 # Personal project - PhotoApp
 
-## Link public - Hosting
+## Link Demo
 
 - https://photoapp-vanle.web.app/
 
@@ -14,10 +14,6 @@
 - react-redux@7.2.4, @reduxjs/toolkit@1.6.1
 - yup@0.29.0, node-sass@4.14.1, bootstrap@4.4.1, formik@2.1.4
 
-## Edit - Add files
-
-- jsconfig.json, firebase.json
-
 ## References - Libraries
 
 - https://reactjs.org/
@@ -28,7 +24,6 @@
 - https://picsum.photos/
 - https://firebase.google.com/
 - https://code.visualstudio.com/docs/languages/jsconfig
-- https://css-tricks.com/snippets/html/glyphs/
 
 ## More information
 
